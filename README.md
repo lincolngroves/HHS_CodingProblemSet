@@ -8,6 +8,6 @@ This activity is designed to be completed using Visual Studio Code in SAS Viya W
 
 To clone this repo is SAS Viya Workbench for Learners use the following command in the VS Code Terminal:
 
-git clone 
+git clone https://github.com/lincolngroves/HHS_CodingProblemSet.git
 
 
