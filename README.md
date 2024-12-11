@@ -6,3 +6,8 @@ This activity exposes students to SAS programming in SAS Viya Workbench for Lear
 **SAS Software**
 This activity is designed to be completed using Visual Studio Code in SAS Viya Workbench for Learners.
 
+To clone this repo is SAS Viya Workbench for Learners use the following command in the VS Code Terminal:
+
+git clone 
+
+
