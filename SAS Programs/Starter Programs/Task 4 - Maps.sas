@@ -2,7 +2,8 @@
 |		                                 	 SAS On-the-Job                      	       				|
 |                   	 	COVID and Female Labor Supply - Task 4 - Maps             				    |
 *-------------------------------------------------------------------------------------------------------*;
-libname 	ipums "./HHS_CodingProblemSet/SAS Data";
+%let 		path = /workspaces/myfolder;
+libname 	ipums "&path./HHS_CodingProblemSet/SAS Data";
 options 	orientation=landscape mlogic symbolgen pageno=1 error=3;
 
 title1 		h=2pct 		"SAS On-the-Job | COVID and Female Labor Supply";
@@ -73,7 +74,6 @@ proc sort;
 run;
 
 
-
 *-------------------------------------------------------------------------------------*
 |    	   					Prepare Global Options for Maps 						  | 
 *-------------------------------------------------------------------------------------*;
@@ -105,8 +105,7 @@ pattern7 v=s c=cx66bd63;
 pattern8 v=s c=cx1a9850;
 
 ********************************************* Specify Location for the Maps ;
-filename odsout "./HHS_CodingProblemSet/Output";
-
+filename odsout "&path./HHS_CodingProblemSet/Output";
 
 
 *-------------------------------------------------------------------------------------*

@@ -2,7 +2,8 @@
 |		                                 	 SAS On-the-Job                      	       				|
 |                   		COVID and Female Labor Supply - Task 3 - State Level             		    |
 *-------------------------------------------------------------------------------------------------------*;
-libname 	ipums "./HHS_CodingProblemSet/SAS Data";
+%let 		path = /workspaces/myfolder;
+libname 	ipums "&path./HHS_CodingProblemSet/SAS Data";
 options 	orientation=landscape mlogic symbolgen pageno=1 error=3;
 
 title1 		h=2pct 		"SAS On-the-Job | COVID and Female Labor Supply";
@@ -94,12 +95,6 @@ data 	ue 	(keep=statefip yearquarter group ue_rate)
 run;
 
 
-**********************************************  Set up ODS Location to Save Data;
-ods listing close;
-ods pdf file="./HHS_CodingProblemSet/Output/SAS On-the-Job - COVID and Female Labor Supply - Part 2 - &sysdate..pdf";
-
-ods graphics / height=1400 width=2000;
-
 *-----------------------------------------------------------------------------------------*
 |		    	   				Unemployment Rate Analysis				  				  | 
 *-----------------------------------------------------------------------------------------*;
@@ -154,7 +149,3 @@ proc sgpanel data=lfp;
 	colaxis fitpolicy=thin valuesformat=yyq9. ;
 run;
 quit;
-
-
-ods pdf close;
-ods listing;

@@ -2,7 +2,8 @@
 |		                                 	 SAS On-the-Job                      	       				|
 |                         COVID and Female Labor Supply - Task 1 - 2015 to 2019 Analysis                |
 *-------------------------------------------------------------------------------------------------------*;
-libname 	ipums "./HHS_CodingProblemSet/SAS Data";
+%let 		path = /workspaces/myfolder;
+libname 	ipums "&path./HHS_CodingProblemSet/SAS Data";
 options 	orientation=landscape mlogic symbolgen pageno=1 error=3;
 
 title1 		h=2pct 		"SAS On-the-Job | COVID and Female Labor Supply";

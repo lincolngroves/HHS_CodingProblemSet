@@ -2,7 +2,8 @@
 |		                                 	 SAS On-the-Job                      	       				|
 |                   COVID and Female Labor Supply - Task 2a - 2015 to 2023 Analysis  	                |
 *-------------------------------------------------------------------------------------------------------*;
-libname 	ipums "./HHS_CodingProblemSet/SAS Data";
+%let 		path = /workspaces/myfolder;
+libname 	ipums "&path./HHS_CodingProblemSet/SAS Data";
 options 	orientation=landscape mlogic symbolgen pageno=1 error=3;
 
 title1 		h=2pct 		"SAS On-the-Job | COVID and Female Labor Supply";
@@ -24,7 +25,7 @@ run;
 proc sql;
 	create 	table covid_labor_supply1 as 
 	select	distinct 
-			YearQuarter , 
+			YearQuarter, 
 
 /*******************************************************************  Labor Force Status | All  */
 			sum( ( unemp=1 ) * WTFINL * (female=1) ) 						/ sum( ( in_LF=1 ) 						*  WTFINL * (female=1) )	as UE_Women				label="Unemployment Rate"	format percent9.1 		,
@@ -78,7 +79,6 @@ proc sql;
 	group	by 1 
 	order	by 1 ;
 quit;
-
 
 
 *-------------------------------------------------------------------------------------*

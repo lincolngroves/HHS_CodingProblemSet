@@ -2,7 +2,8 @@
 |		                                 	 SAS On-the-Job                      	       				|
 |                 COVID and Female Labor Supply - Task 2b - 2015 to 2023 Analysis - Macros    		    |
 *-------------------------------------------------------------------------------------------------------*;
-libname 	ipums "./HHS_CodingProblemSet/SAS Data";
+%let 		path = /workspaces/myfolder;
+libname 	ipums "&path./HHS_CodingProblemSet/SAS Data";
 options 	orientation=landscape mlogic symbolgen pageno=1 error=3;
 
 title1 		h=2pct 		"SAS On-the-Job | COVID and Female Labor Supply";
@@ -80,7 +81,6 @@ proc sql;
 quit;
 
 
-
 *-------------------------------------------------------------------------------------*
 | 	   					Part 2: Producing Some Summary Graphs						  | 
 |		    					 Adjust Graph Settings								  |
@@ -96,10 +96,6 @@ symbol5 interpol=join line=5	color=p 	;
 **********************************************  Format Axis;
 legend1 position=(top center inside)label=none mode=share frame;
 
-
-**********************************************  Set up ODS Location to Save Data;
-ods listing close;
-ods pdf file="./HHS_CodingProblemSet/Output/SAS On-the-Job - COVID and Female Labor Supply - Part 1 - &sysdate..pdf";
 
 *-------------------------------------------------------------------------------------*
 |			 						  Macro Loops									  |
@@ -120,7 +116,7 @@ ods pdf file="./HHS_CodingProblemSet/Output/SAS On-the-Job - COVID and Female La
 			 /	overlay
 				legend=legend1
 		        vaxis=axis2
-		        vref=&from to &to by .05
+		        vref=&from to &to by &by
 		        lvref=2;
 	run;
 	quit;
@@ -147,13 +143,9 @@ ods pdf file="./HHS_CodingProblemSet/Output/SAS On-the-Job - COVID and Female La
 %macro backup(var,title);
 	title3 h=1.75pct &title;
 	proc print data=covid_labor_supply1 noobs label;
-		var YearQuarter ue_: ;
+		var YearQuarter &var ;
 	run;
 %mend;
 
 %backup(ue_:,"Backup Tables - Unemployment Rates");
-%backup(lfp_:,"Backup Tables - Labor Force Participation Rates";);
-
-
-ods pdf close;
-ods listing;
+%backup(lfp_:,"Backup Tables - Labor Force Participation Rates");
