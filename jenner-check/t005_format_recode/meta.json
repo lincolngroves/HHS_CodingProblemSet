@@ -1,0 +1,8 @@
+{
+  "bundle": "t005_format_recode",
+  "source_file": "SAS Programs/Solutions/Task 4 - Maps.sas",
+  "source_blob_sha": "e80cb31a08f7249e3bbf306a36fa1ea4f120f0a3",
+  "source_commit": "956a836356fccc99610414c8d65d66bd64ff8955",
+  "tier": "real_data",
+  "notes": "Author's Task 4 map-prep pass without the SAS/GRAPH map step: custom PROC FORMAT value range_fmt with eight LFP bands, PUT(YearQuarter,year4.) helper, banded if/else recode into lfp_range, PROC SORT by quarter+state, formatted PROC PRINT, plus a PROC FREQ tally of states per band by quarter. Inline state-by-quarter LFP sample (CA/FL/NY/TX) computed from the CPS data."
+}

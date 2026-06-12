@@ -1,0 +1,8 @@
+{
+  "bundle": "t004_sgpanel_state",
+  "source_file": "SAS Programs/Solutions/Task 3 - State Level.sas",
+  "source_blob_sha": "71609b01e0d7f19e7295761be71b0893c4163da2",
+  "source_commit": "956a836356fccc99610414c8d65d66bd64ff8955",
+  "tier": "real_data",
+  "notes": "Author's PROC SGPANEL lattice from Task 3: panelby state, a series per education group, keylegend at bottom, quarterly value format on the column axis. Built on the same reshape (TRANSPOSE + index split). Inline weighted-cell CPS sample for CA (6) and NY (36). Produces sgpanel.png and sgpanel.svg. Same CASE WHEN / group-by-column / upcase substitutions as the reshape bundle."
+}

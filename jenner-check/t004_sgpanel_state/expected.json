@@ -1,0 +1,21 @@
+{
+  "_captured_at": "2026-06-12T21:48:13.779535+00:00",
+  "_captured_run_id": "r_019ebdcd837e7fe0a9f9f0b4d7f20f20",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Option OBS changed to 100.",
+    "NOTE: Read 141 rows from DATALINES.",
+    "NOTE: PROC SGPANEL data=ue",
+    "NOTE: PROC SGPANEL output written to: ./ods_output/sgpanel.svg"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "output_contains": [],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

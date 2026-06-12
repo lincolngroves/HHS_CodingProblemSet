@@ -1,0 +1,23 @@
+                                     SAS On-the-Job | COVID and Female Labor Supply                                     
+                                           Weighted US-Wide Estimates | Women                                           
+
+                                     SAS On-the-Job | COVID and Female Labor Supply                                     
+                                           Weighted US-Wide Estimates | Women                                           
+                                       Unemployment Rates | Overall and by Group                                        
+
+
+YearQuarter  Unemployment Rate  Black Women  Hispanic Women  White Women  All Other Women  EDUC < HS  EDUC = HS  Some College  College +  No Children  Older Children  Young Children
+-----------  -----------------  -----------  --------------  -----------  ---------------  ---------  ---------  ------------  ---------  -----------  --------------  --------------
+     2019Q4               3.0%         4.7%            3.9%         2.2%             3.2%       6.4%       4.6%          3.1%       1.8%         2.9%            3.0%            3.0%
+     2020Q2              12.0%        14.1%           16.4%        10.0%            13.2%      24.6%      17.5%         14.2%       7.7%        12.2%           11.6%           12.5%
+
+                                     SAS On-the-Job | COVID and Female Labor Supply                                     
+                                           Weighted US-Wide Estimates | Women                                           
+                                          Labor Force Participation | Overall                                           
+
+
+YearQuarter  LFP Rate
+-----------  --------
+     2019Q4     77.6%
+     2020Q2     74.3%
+

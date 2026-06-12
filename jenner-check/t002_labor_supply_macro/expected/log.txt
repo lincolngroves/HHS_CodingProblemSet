@@ -1,0 +1,190 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: Option TITLE changed to SAS On-the-Job | COVID and Female Labor Supply.
+NOTE: Option TITLE2 changed to Subgroup Labor Supply Rates | Women.
+NOTE: DATA cps
+
+NOTE: Processing inline DATALINES (288 lines)
+
+NOTE: Read 288 rows from DATALINES.
+NOTE: Wrote cps (288 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+MLOGIC(GROUP_RATES):  Beginning execution.
+MLOGIC(GROUP_RATES):  Parameter DIM has value Race_Ethnic
+MLOGIC(GROUP_RATES):  Parameter VAL has value 1
+MLOGIC(GROUP_RATES):  Parameter LBL has value Black Women
+SYMBOLGEN:  Macro variable DIM resolves to Race_Ethnic
+SYMBOLGEN:  Macro variable VAL resolves to 1
+SYMBOLGEN:  Macro variable DIM resolves to Race_Ethnic
+SYMBOLGEN:  Macro variable VAL resolves to 1
+SYMBOLGEN:  Macro variable DIM resolves to Race_Ethnic
+SYMBOLGEN:  Macro variable VAL resolves to 1
+SYMBOLGEN:  Macro variable DIM resolves to Race_Ethnic
+SYMBOLGEN:  Macro variable VAL resolves to 1
+SYMBOLGEN:  Macro variable DIM resolves to Race_Ethnic
+SYMBOLGEN:  Macro variable VAL resolves to 1
+SYMBOLGEN:  Macro variable LBL resolves to Black Women
+SYMBOLGEN:  Macro variable DIM resolves to Race_Ethnic
+SYMBOLGEN:  Macro variable VAL resolves to 1
+MLOGIC(GROUP_RATES):  Beginning execution.
+MLOGIC(GROUP_RATES):  Parameter DIM has value Race_Ethnic
+MLOGIC(GROUP_RATES):  Parameter VAL has value 2
+MLOGIC(GROUP_RATES):  Parameter LBL has value Hispanic Women
+SYMBOLGEN:  Macro variable DIM resolves to Race_Ethnic
+SYMBOLGEN:  Macro variable VAL resolves to 2
+SYMBOLGEN:  Macro variable DIM resolves to Race_Ethnic
+SYMBOLGEN:  Macro variable VAL resolves to 2
+SYMBOLGEN:  Macro variable DIM resolves to Race_Ethnic
+SYMBOLGEN:  Macro variable VAL resolves to 2
+SYMBOLGEN:  Macro variable DIM resolves to Race_Ethnic
+SYMBOLGEN:  Macro variable VAL resolves to 2
+SYMBOLGEN:  Macro variable DIM resolves to Race_Ethnic
+SYMBOLGEN:  Macro variable VAL resolves to 2
+SYMBOLGEN:  Macro variable LBL resolves to Hispanic Women
+SYMBOLGEN:  Macro variable DIM resolves to Race_Ethnic
+SYMBOLGEN:  Macro variable VAL resolves to 2
+MLOGIC(GROUP_RATES):  Beginning execution.
+MLOGIC(GROUP_RATES):  Parameter DIM has value Race_Ethnic
+MLOGIC(GROUP_RATES):  Parameter VAL has value 3
+MLOGIC(GROUP_RATES):  Parameter LBL has value White Women
+SYMBOLGEN:  Macro variable DIM resolves to Race_Ethnic
+SYMBOLGEN:  Macro variable VAL resolves to 3
+SYMBOLGEN:  Macro variable DIM resolves to Race_Ethnic
+SYMBOLGEN:  Macro variable VAL resolves to 3
+SYMBOLGEN:  Macro variable DIM resolves to Race_Ethnic
+SYMBOLGEN:  Macro variable VAL resolves to 3
+SYMBOLGEN:  Macro variable DIM resolves to Race_Ethnic
+SYMBOLGEN:  Macro variable VAL resolves to 3
+SYMBOLGEN:  Macro variable DIM resolves to Race_Ethnic
+SYMBOLGEN:  Macro variable VAL resolves to 3
+SYMBOLGEN:  Macro variable LBL resolves to White Women
+SYMBOLGEN:  Macro variable DIM resolves to Race_Ethnic
+SYMBOLGEN:  Macro variable VAL resolves to 3
+MLOGIC(GROUP_RATES):  Beginning execution.
+MLOGIC(GROUP_RATES):  Parameter DIM has value EDUC_LTD
+MLOGIC(GROUP_RATES):  Parameter VAL has value 1
+MLOGIC(GROUP_RATES):  Parameter LBL has value Education < High School
+SYMBOLGEN:  Macro variable DIM resolves to EDUC_LTD
+SYMBOLGEN:  Macro variable VAL resolves to 1
+SYMBOLGEN:  Macro variable DIM resolves to EDUC_LTD
+SYMBOLGEN:  Macro variable VAL resolves to 1
+SYMBOLGEN:  Macro variable DIM resolves to EDUC_LTD
+SYMBOLGEN:  Macro variable VAL resolves to 1
+SYMBOLGEN:  Macro variable DIM resolves to EDUC_LTD
+SYMBOLGEN:  Macro variable VAL resolves to 1
+SYMBOLGEN:  Macro variable DIM resolves to EDUC_LTD
+SYMBOLGEN:  Macro variable VAL resolves to 1
+SYMBOLGEN:  Macro variable LBL resolves to Education < High School
+SYMBOLGEN:  Macro variable DIM resolves to EDUC_LTD
+SYMBOLGEN:  Macro variable VAL resolves to 1
+MLOGIC(GROUP_RATES):  Beginning execution.
+MLOGIC(GROUP_RATES):  Parameter DIM has value EDUC_LTD
+MLOGIC(GROUP_RATES):  Parameter VAL has value 4
+MLOGIC(GROUP_RATES):  Parameter LBL has value Education College +
+SYMBOLGEN:  Macro variable DIM resolves to EDUC_LTD
+SYMBOLGEN:  Macro variable VAL resolves to 4
+SYMBOLGEN:  Macro variable DIM resolves to EDUC_LTD
+SYMBOLGEN:  Macro variable VAL resolves to 4
+SYMBOLGEN:  Macro variable DIM resolves to EDUC_LTD
+SYMBOLGEN:  Macro variable VAL resolves to 4
+SYMBOLGEN:  Macro variable DIM resolves to EDUC_LTD
+SYMBOLGEN:  Macro variable VAL resolves to 4
+SYMBOLGEN:  Macro variable DIM resolves to EDUC_LTD
+SYMBOLGEN:  Macro variable VAL resolves to 4
+SYMBOLGEN:  Macro variable LBL resolves to Education College +
+SYMBOLGEN:  Macro variable DIM resolves to EDUC_LTD
+SYMBOLGEN:  Macro variable VAL resolves to 4
+MLOGIC(GROUP_RATES):  Beginning execution.
+MLOGIC(GROUP_RATES):  Parameter DIM has value Child_Status
+MLOGIC(GROUP_RATES):  Parameter VAL has value 0
+MLOGIC(GROUP_RATES):  Parameter LBL has value No Children
+SYMBOLGEN:  Macro variable DIM resolves to Child_Status
+SYMBOLGEN:  Macro variable VAL resolves to 0
+SYMBOLGEN:  Macro variable DIM resolves to Child_Status
+SYMBOLGEN:  Macro variable VAL resolves to 0
+SYMBOLGEN:  Macro variable DIM resolves to Child_Status
+SYMBOLGEN:  Macro variable VAL resolves to 0
+SYMBOLGEN:  Macro variable DIM resolves to Child_Status
+SYMBOLGEN:  Macro variable VAL resolves to 0
+SYMBOLGEN:  Macro variable DIM resolves to Child_Status
+SYMBOLGEN:  Macro variable VAL resolves to 0
+SYMBOLGEN:  Macro variable LBL resolves to No Children
+SYMBOLGEN:  Macro variable DIM resolves to Child_Status
+SYMBOLGEN:  Macro variable VAL resolves to 0
+MLOGIC(GROUP_RATES):  Beginning execution.
+MLOGIC(GROUP_RATES):  Parameter DIM has value Child_Status
+MLOGIC(GROUP_RATES):  Parameter VAL has value 2
+MLOGIC(GROUP_RATES):  Parameter LBL has value Young Children
+SYMBOLGEN:  Macro variable DIM resolves to Child_Status
+SYMBOLGEN:  Macro variable VAL resolves to 2
+SYMBOLGEN:  Macro variable DIM resolves to Child_Status
+SYMBOLGEN:  Macro variable VAL resolves to 2
+SYMBOLGEN:  Macro variable DIM resolves to Child_Status
+SYMBOLGEN:  Macro variable VAL resolves to 2
+SYMBOLGEN:  Macro variable DIM resolves to Child_Status
+SYMBOLGEN:  Macro variable VAL resolves to 2
+SYMBOLGEN:  Macro variable DIM resolves to Child_Status
+SYMBOLGEN:  Macro variable VAL resolves to 2
+SYMBOLGEN:  Macro variable LBL resolves to Young Children
+SYMBOLGEN:  Macro variable DIM resolves to Child_Status
+SYMBOLGEN:  Macro variable VAL resolves to 2
+NOTE: PROC SQL 
+
+NOTE: Table rates_Race_Ethnic_1 created.
+NOTE: PROC SQL statement used.
+NOTE: Option TITLE3 changed to Labor Supply | Black Women.
+NOTE: PROC PRINT data=rates_Race_Ethnic_1
+
+NOTE: PROC PRINT completed: 2 observations printed, 3 variables
+NOTE: PROC SQL 
+
+NOTE: Table rates_Race_Ethnic_2 created.
+NOTE: PROC SQL statement used.
+NOTE: Option TITLE3 changed to Labor Supply | Hispanic Women.
+NOTE: PROC PRINT data=rates_Race_Ethnic_2
+
+NOTE: PROC PRINT completed: 2 observations printed, 3 variables
+NOTE: PROC SQL 
+
+NOTE: Table rates_Race_Ethnic_3 created.
+NOTE: PROC SQL statement used.
+NOTE: Option TITLE3 changed to Labor Supply | White Women.
+NOTE: PROC PRINT data=rates_Race_Ethnic_3
+
+NOTE: PROC PRINT completed: 2 observations printed, 3 variables
+NOTE: PROC SQL 
+
+NOTE: Table rates_EDUC_LTD_1 created.
+NOTE: PROC SQL statement used.
+NOTE: Option TITLE3 changed to Labor Supply | Education < High School.
+NOTE: PROC PRINT data=rates_EDUC_LTD_1
+
+NOTE: PROC PRINT completed: 2 observations printed, 3 variables
+NOTE: PROC SQL 
+
+NOTE: Table rates_EDUC_LTD_4 created.
+NOTE: PROC SQL statement used.
+NOTE: Option TITLE3 changed to Labor Supply | Education College +.
+NOTE: PROC PRINT data=rates_EDUC_LTD_4
+
+NOTE: PROC PRINT completed: 2 observations printed, 3 variables
+NOTE: PROC SQL 
+
+NOTE: Table rates_Child_Status_0 created.
+NOTE: PROC SQL statement used.
+NOTE: Option TITLE3 changed to Labor Supply | No Children.
+NOTE: PROC PRINT data=rates_Child_Status_0
+
+NOTE: PROC PRINT completed: 2 observations printed, 3 variables
+NOTE: PROC SQL 
+
+NOTE: Table rates_Child_Status_2 created.
+NOTE: PROC SQL statement used.
+NOTE: Option TITLE3 changed to Labor Supply | Young Children.
+NOTE: PROC PRINT data=rates_Child_Status_2
+
+NOTE: PROC PRINT completed: 2 observations printed, 3 variables

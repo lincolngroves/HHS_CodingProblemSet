@@ -1,0 +1,8 @@
+{
+  "bundle": "t002_labor_supply_macro",
+  "source_file": "SAS Programs/Solutions/Task 2b - 2015 to 2023 Analysis - Macros.sas",
+  "source_blob_sha": "12b5a3f928667dafaf52a3825ee7ed527089daa0",
+  "source_commit": "956a836356fccc99610414c8d65d66bd64ff8955",
+  "tier": "real_data",
+  "notes": "Author's macro-factored approach (Task 2b uses %macro to parameterize the repeated UE/LFP calculations). Here a reporting macro group_rates(dim,val,lbl) produces weighted rates per subgroup, invoked across race/education/child-status. Inline weighted-cell CPS sample (2019Q4, 2020Q2). Indicator products written as CASE WHEN; GROUP BY/ORDER BY by column name."
+}

@@ -1,0 +1,35 @@
+                                     SAS On-the-Job | COVID and Female Labor Supply                                     
+                                              State-Level Reshape | Women                                               
+
+                                     SAS On-the-Job | COVID and Female Labor Supply                                     
+                                              State-Level Reshape | Women                                               
+                                             Unemployment Rate | Long Form                                              
+
+
+State_FIP  YearQuarter  Unemployment Rate
+---------  -----------  -----------------
+        6        21823       0.0384225728
+        6        21823        0.022734132
+        6        22006       0.1541623277
+        6        22006       0.1094789717
+       36        21823       0.0278331986
+       36        21823       0.0241967169
+       36        22006       0.1391350495
+       36        22006        0.087341571
+
+                                     SAS On-the-Job | COVID and Female Labor Supply                                     
+                                              State-Level Reshape | Women                                               
+                                       Labor Force Participation Rate | Long Form                                       
+
+
+State_FIP  YearQuarter  Labor Force Participation Rate
+---------  -----------  ------------------------------
+        6        21823                    0.7461330827
+        6        21823                    0.8197057787
+        6        22006                     0.690580845
+        6        22006                    0.7900701968
+       36        21823                    0.7613940193
+       36        21823                    0.8431003458
+       36        22006                    0.7272102076
+       36        22006                    0.8022225524
+
