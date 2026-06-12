@@ -1,0 +1,35 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: Option TITLE changed to SAS On-the-Job | COVID and Female Labor Supply.
+NOTE: Option TITLE2 changed to State-Level Unemployment Panels | Women.
+NOTE: DATA cps
+
+NOTE: Processing inline DATALINES (141 lines)
+
+NOTE: Read 141 rows from DATALINES.
+NOTE: Wrote cps (141 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SQL 
+
+NOTE: Table covid_labor_supply2 created.
+NOTE: PROC SQL statement used.
+NOTE: PROC TRANSPOSE data=covid_labor_supply2
+
+NOTE: Created 16 rows.
+NOTE: Output written to /tmp/work/work/eb0ed923-c2f3-4ae2-99ad-5a13ebdf047c/tran1.avro.
+NOTE: DATA ue
+
+
+NOTE: Read 16 rows from tran1.
+NOTE: Wrote ue (16 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE3 changed to Unemployment Analysis | By Education Level.
+NOTE: PROC SGPANEL data=ue
+
+NOTE: PROC SGPANEL output written to: ./ods_output/sgpanel.svg

@@ -1,0 +1,8 @@
+{
+  "bundle": "t001_covid_labor_supply_sql",
+  "source_file": "SAS Programs/Solutions/Task 2a - 2015 to 2023 Analysis.sas",
+  "source_blob_sha": "94283ca2f2bfa8cc72676ecfc48c1f9ca76c1dbe",
+  "source_commit": "956a836356fccc99610414c8d65d66bd64ff8955",
+  "tier": "real_data",
+  "notes": "Author's weighted US-wide PROC SQL estimates of women's UE and LFP rates. CPS microdata replaced by an inline sample collapsed to weighted cells (real IPUMS WTFINL weights) for 2019Q4 and 2020Q2. Two semantics-preserving rewrites: (cond)*WTFINL*(female=1) expressed as CASE WHEN ... THEN WTFINL ELSE 0 END; positional GROUP BY 1/ORDER BY 1 written as GROUP BY YearQuarter/ORDER BY YearQuarter. Backup PROC PRINT uses explicit variable lists."
+}

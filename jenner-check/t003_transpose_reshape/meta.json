@@ -1,0 +1,8 @@
+{
+  "bundle": "t003_transpose_reshape",
+  "source_file": "SAS Programs/Solutions/Task 3 - State Level.sas",
+  "source_blob_sha": "71609b01e0d7f19e7295761be71b0893c4163da2",
+  "source_commit": "956a836356fccc99610414c8d65d66bd64ff8955",
+  "tier": "real_data",
+  "notes": "Author's state-level PROC TRANSPOSE reshape: collapse to state-by-quarter rates, transpose to long form with rename=(_label_=Group), then split into UE/LFP data sets via index() of _name_ with conditional OUTPUT. Inline weighted-cell CPS sample for CA (6) and NY (36), 2019Q4 and 2020Q2. Substitutions: indicator products as CASE WHEN; GROUP BY underlying column; index() wrapped in upcase() so the name test is case-insensitive."
+}

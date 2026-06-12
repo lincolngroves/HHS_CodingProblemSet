@@ -1,0 +1,25 @@
+{
+  "_captured_at": "2026-06-12T21:49:57.755046+00:00",
+  "_captured_run_id": "r_019ebdcfc6667e8299be8e60cd7487be",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Option OBS changed to 100.",
+    "NOTE: FORMAT range_fmt defined (8 ranges).",
+    "NOTE: Read 16 rows from DATALINES.",
+    "NOTE: PROC PRINT completed: 16 observations printed, 5 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "output_contains": [
+    "Banded LFP Rate by State and Quarter",
+    "70-75%",
+    "The FREQ Procedure"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

@@ -1,0 +1,97 @@
+                                     SAS On-the-Job | COVID and Female Labor Supply                                     
+                                          Subgroup Labor Supply Rates | Women                                           
+
+                                     SAS On-the-Job | COVID and Female Labor Supply                                     
+                                          Subgroup Labor Supply Rates | Women                                           
+                                               Labor Supply | Black Women                                               
+
+
+YearQuarter  Unemployment Rate  LFP Rate
+-----------  -----------------  --------
+     2019Q4               4.7%     80.0%
+     2020Q2              14.1%     75.4%
+
+                                     SAS On-the-Job | COVID and Female Labor Supply                                     
+                                          Subgroup Labor Supply Rates | Women                                           
+                                               Labor Supply | Black Women                                               
+
+                                     SAS On-the-Job | COVID and Female Labor Supply                                     
+                                          Subgroup Labor Supply Rates | Women                                           
+                                             Labor Supply | Hispanic Women                                              
+
+
+YearQuarter  Unemployment Rate  LFP Rate
+-----------  -----------------  --------
+     2019Q4               3.9%     71.2%
+     2020Q2              16.4%     66.4%
+
+                                     SAS On-the-Job | COVID and Female Labor Supply                                     
+                                          Subgroup Labor Supply Rates | Women                                           
+                                             Labor Supply | Hispanic Women                                              
+
+                                     SAS On-the-Job | COVID and Female Labor Supply                                     
+                                          Subgroup Labor Supply Rates | Women                                           
+                                               Labor Supply | White Women                                               
+
+
+YearQuarter  Unemployment Rate  LFP Rate
+-----------  -----------------  --------
+     2019Q4               2.2%     80.1%
+     2020Q2              10.0%     77.1%
+
+                                     SAS On-the-Job | COVID and Female Labor Supply                                     
+                                          Subgroup Labor Supply Rates | Women                                           
+                                               Labor Supply | White Women                                               
+
+                                     SAS On-the-Job | COVID and Female Labor Supply                                     
+                                          Subgroup Labor Supply Rates | Women                                           
+                                         Labor Supply | Education < High School                                         
+
+
+YearQuarter  Unemployment Rate  LFP Rate
+-----------  -----------------  --------
+     2019Q4               6.4%     54.0%
+     2020Q2              24.6%     48.5%
+
+                                     SAS On-the-Job | COVID and Female Labor Supply                                     
+                                          Subgroup Labor Supply Rates | Women                                           
+                                         Labor Supply | Education < High School                                         
+
+                                     SAS On-the-Job | COVID and Female Labor Supply                                     
+                                          Subgroup Labor Supply Rates | Women                                           
+                                           Labor Supply | Education College +                                           
+
+
+YearQuarter  Unemployment Rate  LFP Rate
+-----------  -----------------  --------
+     2019Q4               1.8%     85.5%
+     2020Q2               7.7%     82.6%
+
+                                     SAS On-the-Job | COVID and Female Labor Supply                                     
+                                          Subgroup Labor Supply Rates | Women                                           
+                                           Labor Supply | Education College +                                           
+
+                                     SAS On-the-Job | COVID and Female Labor Supply                                     
+                                          Subgroup Labor Supply Rates | Women                                           
+                                               Labor Supply | No Children                                               
+
+
+YearQuarter  Unemployment Rate  LFP Rate
+-----------  -----------------  --------
+     2019Q4               2.9%     81.0%
+     2020Q2              12.2%     77.8%
+
+                                     SAS On-the-Job | COVID and Female Labor Supply                                     
+                                          Subgroup Labor Supply Rates | Women                                           
+                                               Labor Supply | No Children                                               
+
+                                     SAS On-the-Job | COVID and Female Labor Supply                                     
+                                          Subgroup Labor Supply Rates | Women                                           
+                                             Labor Supply | Young Children                                              
+
+
+YearQuarter  Unemployment Rate  LFP Rate
+-----------  -----------------  --------
+     2019Q4               3.0%     68.8%
+     2020Q2              12.5%     65.7%
+

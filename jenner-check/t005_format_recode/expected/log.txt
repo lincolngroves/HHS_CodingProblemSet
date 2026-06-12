@@ -1,0 +1,40 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: Option TITLE changed to SAS On-the-Job | COVID and Female Labor Supply.
+NOTE: Option TITLE2 changed to LFP Rate Banding by State and Quarter | Women.
+NOTE: DATA lfp
+
+NOTE: Processing inline DATALINES (16 lines)
+
+NOTE: Read 16 rows from DATALINES.
+NOTE: Wrote lfp (16 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC FORMAT library=WORK
+
+NOTE: FORMAT range_fmt defined (8 ranges).
+NOTE: DATA lfp1
+
+
+NOTE: Read 16 rows from lfp.
+NOTE: Wrote lfp1 (16 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=lfp1
+
+NOTE: Unlicensed mode - input limited to 100 observations.
+NOTE: Read 16 rows from lfp1.
+NOTE: Wrote lfp1 (16 rows, 6 columns).
+NOTE: PROC SORT statement used.
+NOTE: Option TITLE3 changed to Banded LFP Rate by State and Quarter.
+NOTE: PROC PRINT data=lfp1
+
+NOTE: PROC PRINT completed: 16 observations printed, 5 variables
+NOTE: Option TITLE3 changed to States per LFP Band, by Quarter.
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_mosaic_yearquarter_lfp_range.spec.json
+NOTE: PROC FREQ statement used.

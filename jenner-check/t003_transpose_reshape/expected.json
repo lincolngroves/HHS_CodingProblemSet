@@ -1,0 +1,24 @@
+{
+  "_captured_at": "2026-06-12T21:46:32.443066+00:00",
+  "_captured_run_id": "r_019ebdcc985a7cd3a4f7e6ce0ad6865b",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Option OBS changed to 100.",
+    "NOTE: Read 141 rows from DATALINES.",
+    "NOTE: Table covid_labor_supply2 created.",
+    "NOTE: PROC TRANSPOSE data=covid_labor_supply2"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "output_contains": [
+    "Unemployment Rate | Long Form",
+    "Labor Force Participation Rate | Long Form"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}
